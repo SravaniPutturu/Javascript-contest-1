@@ -22,6 +22,7 @@ function PrintStudentsbyForEach() {
     if(marks >= 50){
       console.log(arr[id-1]);
     }
+    });
 }
 
 function addData() {
