@@ -16,10 +16,14 @@ function PrintStudentsbyForEach() {
 
 function addData() {
   //Write your code here, just console.log
+  var added = {id : 4, name : "susan", age : "20", marks :45 };
+  arr.push(added);
+  console.log(arr);
 }
 
 function removeFailedStudent() {
   //Write your code here, just console.log
+  console.log(arr.filter(f=>f.marks > 50));
 }
 
 function concatenateArray() {
